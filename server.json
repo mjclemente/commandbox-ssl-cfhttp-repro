@@ -1,0 +1,11 @@
+{
+    "web":{
+        "HTTP":{
+            "enable":true
+        },
+        "SSL":{
+            "enable":true,
+            "port":8443
+        }
+    }
+}
