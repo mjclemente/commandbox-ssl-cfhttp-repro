@@ -1,0 +1,20 @@
+{
+    "web":{
+        "HTTP":{
+            "enable":true
+        },
+        "SSL":{
+            "enable":true,
+            "port":8443
+        }
+    },
+    "JVM":{
+        "javaVersion":"openjdk8_jdk8u252-b09.1"
+    },
+    "runwar":{
+        "args":"--ssl-eccdisable=false"
+    },
+    "app":{
+        "cfengine":"adobe@2018"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "web":{
+        "HTTP":{
+            "enable":true
+        },
+        "SSL":{
+            "enable":true,
+            "port":8443
+        }
+    },
+    "JVM":{
+        "javaVersion":"openjdk11_jdk-11.0.6+10"
+    },
+    "runwar":{
+        "args":"--ssl-eccdisable=false"
+    },
+    "app":{
+        "cfengine":"adobe@11"
+    }
+}

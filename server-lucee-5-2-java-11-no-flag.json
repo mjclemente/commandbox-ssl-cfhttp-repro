@@ -1,0 +1,17 @@
+{
+    "web":{
+        "HTTP":{
+            "enable":true
+        },
+        "SSL":{
+            "enable":true,
+            "port":8443
+        }
+    },
+    "JVM":{
+        "javaVersion":"openjdk11_jdk-11.0.6+10"
+    },
+    "app":{
+        "cfengine":"lucee@5.2.9+31"
+    }
+}
