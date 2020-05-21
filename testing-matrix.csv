@@ -1,21 +1,21 @@
-Engine,Version,Java Version (openjdk),--ssl-eccdisable=false,Can Browser Connect?,CFHTTP https://trycf.com,CFHTTP https://google.com
-Lucee,5.3.6+61,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
-Lucee,5.3.6+61,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
-Lucee,5.3.6+61,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
-Lucee,5.3.6+61,11_jdk-11.0.6+10,No,YES,Connection Failure,Connection Failure
-Lucee,5.2.9+31,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
-Lucee,5.2.9+31,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
-Lucee,5.2.9+31,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
-Lucee,5.2.9+31,11_jdk-11.0.6+10,No,YES,Connection Failure,Connection Failure
-Adobe,2018.0.9+318650,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
-Adobe,2018.0.9+318650,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
-Adobe,2018.0.9+318650,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
-Adobe,2018.0.9+318650,11_jdk-11.0.6+10,No,YES,200 OK,Connection Failure
-Adobe,2016.0.15+318650,8_jdk8u252-b09.1,Yes,NO,NA,NA
-Adobe,2016.0.15+318650,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
-Adobe,2016.0.15+318650,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
-Adobe,2016.0.15+318650,11_jdk-11.0.6+10,No,YES,200 OK,Connection Failure
-Adobe,11.0.19+314546,8_jdk8u252-b09.1,Yes,NO,NA,NA
-Adobe,11.0.19+314546,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
-Adobe,11.0.19+314546,11_jdk-11.0.6+10,Yes,NO,NA,NA
-Adobe,11.0.19+314546,11_jdk-11.0.6+10,No,NO,NA,NA
+Server Name,Engine,Version,Java Version (openjdk),--ssl-eccdisable=false,Can Browser Connect?,CFHTTP https://trycf.com,CFHTTP https://google.com
+server-lucee-5-3-java-8-flag.json,Lucee,5.3.6+61,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
+server-lucee-5-3-java-8-no-flag.json,Lucee,5.3.6+61,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
+server-lucee-5-3-java-11-flag.json,Lucee,5.3.6+61,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
+server-lucee-5-3-java-11-no-flag.json,Lucee,5.3.6+61,11_jdk-11.0.6+10,No,YES,Connection Failure,Connection Failure
+server-lucee-5-2-java-8-flag.json,Lucee,5.2.9+31,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
+server-lucee-5-2-java-8-no-flag.json,Lucee,5.2.9+31,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
+server-lucee-5-2-java-11-flag.json,Lucee,5.2.9+31,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
+server-lucee-5-2-java-11-no-flag.json,Lucee,5.2.9+31,11_jdk-11.0.6+10,No,YES,Connection Failure,Connection Failure
+server-adobe-2018-java-8-flag.json,Adobe,2018.0.9+318650,8_jdk8u252-b09.1,Yes,YES,200 OK,200 OK
+server-adobe-2018-java-8-no-flag.json,Adobe,2018.0.9+318650,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
+server-adobe-2018-java-11-flag.json,Adobe,2018.0.9+318650,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
+server-adobe-2018-java-11-no-flag.json,Adobe,2018.0.9+318650,11_jdk-11.0.6+10,No,YES,200 OK,Connection Failure
+server-adobe-2016-java-8-flag.json,Adobe,2016.0.15+318650,8_jdk8u252-b09.1,Yes,NO,NA,NA
+server-adobe-2016-java-8-no-flag.json,Adobe,2016.0.15+318650,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
+server-adobe-2016-java-11-flag.json,Adobe,2016.0.15+318650,11_jdk-11.0.6+10,Yes,YES,200 OK,200 OK
+server-adobe-2016-java-11-no-flag.json,Adobe,2016.0.15+318650,11_jdk-11.0.6+10,No,YES,200 OK,Connection Failure
+server-adobe-11-java-8-flag.json,Adobe,11.0.19+314546,8_jdk8u252-b09.1,Yes,NO,NA,NA
+server-adobe-11-java-8-no-flag.json,Adobe,11.0.19+314546,8_jdk8u252-b09.1,No,YES,Connection Failure,200 OK
+server-adobe-11-java-11-flag.json,Adobe,11.0.19+314546,11_jdk-11.0.6+10,Yes,NO,NA,NA
+server-adobe-11-java-11-no-flag.json,Adobe,11.0.19+314546,11_jdk-11.0.6+10,No,NO,NA,NA
